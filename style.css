@@ -46,9 +46,11 @@ nav a:hover {
 }
 
 html {
+  /* min-height: 1024px; */
   background-image: url("assets/background.jpg");
   background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
   font-family: "Space Age", sans-serif;
   color: #ffffff;
 }
@@ -92,7 +94,6 @@ footer {
   padding-left: 20px;
 }
 
-
 .github {
   width: 70px;
   padding-right: 20px;
@@ -105,7 +106,7 @@ footer {
   padding-left: 20px;
 }
 
-@media (min-width: 375px) and (max-width: 610px) {  
+@media (min-width: 375px) and (max-width: 610px) {
   .github {
     width: 35px;
   }
@@ -120,13 +121,16 @@ footer {
   .linkedin {
     width: 45px;
   }
-  .github, .spotify, .instagram, .linkedin {
+  .github,
+  .spotify,
+  .instagram,
+  .linkedin {
     padding-right: 1px;
     padding-left: 1px;
   }
 }
 
-@media (min-width: 150px) and (max-width: 375px){
+@media (min-width: 150px) and (max-width: 375px) {
   .github {
     width: 25px;
   }
@@ -145,7 +149,10 @@ footer {
     margin-left: 5px;
     margin-right: 5px;
   }
-  .github, .spotify, .instagram, .linkedin {
+  .github,
+  .spotify,
+  .instagram,
+  .linkedin {
     padding-right: 1px;
     padding-left: 1px;
   }
@@ -158,29 +165,29 @@ footer {
   }
   html {
     background-image: url("assets/background2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
-@media (min-width: 610px) {  
+@media (min-width: 610px) {
   .content {
     margin-left: 100px;
     margin-right: 100px;
   }
 }
 
-@media (min-width: 850px) {  
+@media (min-width: 850px) {
   .content {
     margin-left: 180px;
     margin-right: 180px;
   }
 }
 
-@media (min-width: 1000px) {  
+@media (min-width: 1000px) {
   .content {
     margin-left: 220px;
     margin-right: 220px;
   }
 }
-
-
-
