@@ -55,6 +55,11 @@ html {
   color: #ffffff;
 }
 
+.project-links {
+  color: lightblue;
+  text-decoration: none;
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -62,6 +67,7 @@ html {
 }
 
 .content {
+  font-family: "Verdana", sans-serif;
   flex: 1;
   margin: 20px;
 }
